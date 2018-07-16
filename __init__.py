@@ -1,11 +1,5 @@
 #!/var/www/FlaskApp/venv/bin/python3
 
-"""
-Item Catalog App
-
-Developed by Subhadeep Dey.
-"""
-
 from flask import Flask, render_template, request, redirect, jsonify, url_for
 from flask import flash, make_response
 from flask import session as login_session
